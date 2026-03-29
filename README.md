@@ -1,31 +1,29 @@
-##**🎤 Real-Time Speech-to-Speech Translation System**
+## 🎤 Real-Time Speech-to-Speech Translation System
 
-This project implements an end-to-end real-time Speech-to-Speech Machine Translation (S2ST) system that enables seamless communication across different languages by converting spoken 
-input into a target language and generating a natural speech response.
-The system captures live audio input, processes it through multiple stages including noise reduction, speech recognition, language identification, translation, and speech synthesis,
-and delivers an intelligible audio output with minimal latency.
+This project implements an end-to-end real-time Speech-to-Speech Machine Translation (S2ST) system that enables seamless communication across different languages by converting spoken input into a target language and generating a natural speech response.
 
-**🧠 System Pipeline:**
+The system captures live audio input, processes it through multiple stages including noise reduction, speech recognition, language identification, translation, and speech synthesis, and delivers an intelligible audio output with minimal latency.
 
-  1.Microphone Input 
-  2.Noise Suppression 
-  3.Speech Recognition + Language Identification 
-  4.Translation 
-  5.Text-to-Speech 
-  6.Audio Output
+---
 
+## 🧠 System Pipeline
 
-**⚙️ Tools and Technologies:**
+Microphone Input → Noise Suppression → Speech Recognition + Language Identification → Translation → Text-to-Speech → Audio Output
 
-- Audio Capture: sounddevice, soundfile  
-- Noise Suppression: noisereduce  
-- Speech Recognition & Language Identification: OpenAI Whisper  
-- Translation Engine: deep-translator (Google Translate)  
-- Text-to-Speech: gTTS  
-- Programming Language: Python  
+---
 
+## ⚙️ Tools and Technologies
 
-**🚀 Key Features:**
+- **Audio Capture**: `sounddevice`, `soundfile`  
+- **Noise Suppression**: `noisereduce`  
+- **Speech Recognition & Language Identification**: `OpenAI Whisper`  
+- **Translation Engine**: `deep-translator (Google Translate)`  
+- **Text-to-Speech**: `gTTS`  
+- **Programming Language**: Python  
+
+---
+
+## 🚀 Key Features
 
 - Supports multilingual speech input  
 - Automatic language detection  
@@ -33,17 +31,17 @@ and delivers an intelligible audio output with minimal latency.
 - Modular and scalable pipeline design  
 - Handles real-world noisy environments  
 
-** 🎯 Use Cases:**
+---
+
+## 🎯 Use Cases
 
 - Real-time cross-lingual communication  
 - Voice-based translation systems  
 - Accessibility tools for regional language users  
 - Human-computer interaction in multilingual settings  
 
+---
 
-**📌 Implementation Note:**
+## 📌 Implementation Note
 
-The current implementation translates speech from multiple languages into a single target language (Telugu)
-Focusing on performance
-Simplicity
-Real-world applicability.
+The current implementation translates speech from multiple languages into a single target language (Telugu), focusing on performance, simplicity, and real-world applicability.
