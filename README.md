@@ -1,12 +1,11 @@
-🎤 Real-Time Speech-to-Speech Translation System
+##**🎤 Real-Time Speech-to-Speech Translation System**
 
 This project implements an end-to-end real-time Speech-to-Speech Machine Translation (S2ST) system that enables seamless communication across different languages by converting spoken 
 input into a target language and generating a natural speech response.
-
 The system captures live audio input, processes it through multiple stages including noise reduction, speech recognition, language identification, translation, and speech synthesis,
 and delivers an intelligible audio output with minimal latency.
 
-🧠 System Pipeline
+**🧠 System Pipeline:**
 
   1.Microphone Input 
   2.Noise Suppression 
@@ -16,7 +15,7 @@ and delivers an intelligible audio output with minimal latency.
   6.Audio Output
 
 
-⚙️ Tools and Technologies
+**⚙️ Tools and Technologies:**
 
 - Audio Capture: sounddevice, soundfile  
 - Noise Suppression: noisereduce  
@@ -26,7 +25,7 @@ and delivers an intelligible audio output with minimal latency.
 - Programming Language: Python  
 
 
-🚀 Key Features
+**🚀 Key Features:**
 
 - Supports multilingual speech input  
 - Automatic language detection  
@@ -34,13 +33,17 @@ and delivers an intelligible audio output with minimal latency.
 - Modular and scalable pipeline design  
 - Handles real-world noisy environments  
 
- 🎯 Use Cases
+** 🎯 Use Cases:**
 
 - Real-time cross-lingual communication  
 - Voice-based translation systems  
 - Accessibility tools for regional language users  
 - Human-computer interaction in multilingual settings  
 
-## 📌 Implementation Note
 
-The current implementation translates speech from multiple languages into a single target language (Telugu), focusing on performance, simplicity, and real-world applicability.
+**📌 Implementation Note:**
+
+The current implementation translates speech from multiple languages into a single target language (Telugu)
+Focusing on performance
+Simplicity
+Real-world applicability.
